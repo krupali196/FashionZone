@@ -1,0 +1,714 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionZone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indexphone.css">
+
+</head>
+
+<body>
+    <!-- navigation bar -->
+
+    <nav id="navbar">
+        <h4 class="logo">FashionZone</h4>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#last_footer">About</a></li>
+            <li class="item"><a href="#last_footer">Contact</a></li>
+            <li class="item"><a href="Addtocart.html">Add to Cart</a></li>
+            <li></li>
+        </ul>
+        <button class="button-login">Login</button>
+    </nav>
+
+    <!-- home page -->
+
+    <section id="home">
+
+        <h1 class="h-primary">Welcome To FashionZone</h1>
+        <div class="quote">
+            <p> "Fashion is about dressing according to what's fashionable.</p>
+            <p>Style is more about being yourself.</p>
+            <p>Embrace your style journey with rented elegance."</p>
+        </div>
+
+        <!-- login signIn table -->
+
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form-box login" method="post">
+
+                <h2>Login</h2>
+                <form action="index.php" method="post">
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="text" name="loginusername" required>
+                        <label>UserName or Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" name="password" required>
+                        <label>password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">remember me</label>
+                        <a href="#">forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn1" name="login" onclick="validateLogin()">login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="register-link">SignIn</a></p>
+                    </div>
+                </form>
+                <!-- <p id="error-message"></p>  -->
+            </div>
+
+            <div class="form-box register">
+                <h2>SignIn</h2>
+                <form action="index.php" method="post">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" name="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" name="password" required>
+                        <label>password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                            I agree to the terms & conditions
+                        </label>
+                    </div>
+                    <button type="submit" class="btn1" name="register">SignIn</button>
+                    <div class="login-register">
+                        <p>Already have an account?
+                            <a href="#" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- three box button -->
+        <div class="constraint">
+            <a class="round-button" href="#men-collection">
+                <div class="round-button-circle">
+                    <img src="boy.jpg" alt="">
+                    <span class="round-button">MEN</span>
+                </div>
+            </a>
+
+            <a class="round-button" href="#women-collection">
+                <div class="round-button-circle">
+                    <img src="girl.jpg" alt="">
+                    <span class="round-button">WOMEN</span>
+                </div>
+            </a>
+
+            <a class="round-button" href="#couple-collection">
+                <div class="round-button-circle">
+                    <img src="couple.jpg" alt="">
+                    <span class="round-button">COUPLE</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- women collection section -->
+
+    <section id="women-collection">
+        <div class="container">
+            <div class="font-image">
+
+                <img src="GIRL.png" alt="" class="imgback">
+                <p>Women Collection</p>
+                <img src="GIRL.png" alt="" class="rotate_imgback">
+
+            </div>
+
+            <div class="box-container">
+                <div class="box active">
+                    <img src="p1.jpg" alt="">
+                    <div class="content">
+                        <h3>Multicolour Embroidered lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 7000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="p2_1.jpg" alt="">
+                    <div class="content">
+                        <h3>Blue and White lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 5000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="p3_1.jpg" alt="">
+                    <div class="content">
+                        <h3>Fully Embroidered mirror work choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 6500/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="p4.jpg" alt="">
+                    <div class="content">
+                        <h3>Dart purple silk organza lehenga</h3>
+                        <p>size: M, L, XL, XXL, XXXL <br>Price: 4000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="p5.jpg" alt="">
+                    <div class="content">
+                        <h3>purple shimmer lehenga</h3>
+                        <p>size: M, L, XL, XXL, XXXL <br>Price: 7200/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="p6.jpg" alt="">
+                    <div class="content">
+                        <h3>Floral print lehenga</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 3000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p7.jpg" alt="">
+                    <div class="content">
+                        <h3>Yellow silk lehenga</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 3500/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p8.jpg" alt="">
+                    <div class="content">
+                        <h3>Light pink simple Embroidered lehenga</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 6300/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p9.jpg" alt="">
+                    <div class="content">
+                        <h3>Digital printed brown colour organza lehenga</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 5000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p10.jpg" alt="">
+                    <div class="content">
+                        <h3>Embroidered lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 6100/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p11.jpg" alt="">
+                    <div class="content">
+                        <h3>Floral print lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 4000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p12.jpg" alt="">
+                    <div class="content">
+                        <h3>pink fully Embroidered lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 8000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p13_2.jpg" alt="">
+                    <div class="content">
+                        <h3>pink lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 8300/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p14.jpg" alt="">
+                    <div class="content">
+                        <h3>light pink mirror work choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 9000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p15.jpg" alt="">
+                    <div class="content">
+                        <h3>Fully Embroidered pink lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 7000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="p16_1.jpg" alt="">
+                    <div class="content">
+                        <h3>Wine rajashahi work lehenga choli</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 8600/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- load more button -->
+            <div id="load-more">load more</div>
+    </section>
+
+    <!-- men collection section -->
+
+    <section id="men-collection">
+
+        <div class="container">
+
+            <div class="font-image">
+
+                <img src="BOY.png" alt="" class="imgback">
+                <p>Men Collection</p>
+                <img src="BOY.png" alt="" class="rotate_imgback">
+
+            </div>
+
+            <div class="box-container">
+                <div class="box active">
+                    <img src="m1.jpg" alt="">
+                    <div class="content">
+                        <h3>Mandrain collar kruta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 3000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="m2.jpg" alt="">
+                    <div class="content">
+                        <h3>green kruta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2800/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="m17.jpg" alt="">
+                    <div class="content">
+                        <h3>Men blazer suit</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="m4.jpg" alt="">
+                    <div class="content">
+                        <h3>Grey blazer suit</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="m5.jpg" alt="">
+                    <div class="content">
+                        <h3>Black suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="m6.jpg" alt="">
+                    <div class="content">
+                        <h3>Designer blazer suit</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1700/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m7.jpg" alt="">
+                    <div class="content">
+                        <h3>Brown blazer suit</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 900/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m8.jpg" alt="">
+                    <div class="content">
+                        <h3>Light pink blazer suit</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 950/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m9.png" alt="">
+                    <div class="content">
+                        <h3>Embroidered Blue kruta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m10.jpg" alt="">
+                    <div class="content">
+                        <h3>Textured casual blazer</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m11.jpg" alt="">
+                    <div class="content">
+                        <h3>Red and Multicolour kurta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m12.jpg" alt="">
+                    <div class="content">
+                        <h3>Black blazer</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1700/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m13.jpg" alt="">
+                    <div class="content">
+                        <h3>Blue kurta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m14.jpg" alt="">
+                    <div class="content">
+                        <h3>pink silver stylish kurta set</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 2200/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m15.jpg" alt="">
+                    <div class="content">
+                        <h3>Black blazer</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1400/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="m16.jpg" alt="">
+                    <div class="content">
+                        <h3>Print work White blazer</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 1300/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- load more button -->
+            <div id="load-more">load more</div>
+    </section>
+
+
+    <!-- couple collection section -->
+
+    <section id="couple-collection">
+
+        <div class="container">
+
+            <div class="font-image">
+
+                <img src="cpl.png" alt="" class="imgback">
+                <p>Couple Collection</p>
+                <img src="cpl.png" alt="" class="rotate_imgback">
+
+            </div>
+
+            <div class="box-container">
+                <div class="box active">
+                    <img src="c1.jpg" alt="">
+                    <div class="content">
+                        <h3>Pink lehenga and men kurta pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 10000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="c2.jpg" alt="">
+                    <div class="content">
+                        <h3>Embroidered lehenga and black suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 12000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="c3.jpg" alt="">
+                    <div class="content">
+                        <h3>Light pink choli and black suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 10000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="c4.jpg" alt="">
+                    <div class="content">
+                        <h3>Light pink net choli and black suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 11000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="c5.jpg" alt="">
+                    <div class="content">
+                        <h3>Embroidered work skin choli and black suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 17000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="c6.jpg" alt="">
+                    <div class="content">
+                        <h3>Fully Embroidered work choli and brown blazer suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 16000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c7.jpg" alt="">
+                    <div class="content">
+                        <h3>Silver lehenga choli and blue suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 10000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c8.jpg" alt="">
+                    <div class="content">
+                        <h3>Light blue glitter work choli and suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 13000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c9.jpg" alt="">
+                    <div class="content">
+                        <h3>Fully Embroidered work black choli and blazer suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 12000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c10.jpg" alt="">
+                    <div class="content">
+                        <h3>Light pink choli and kurta pair </h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 11000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c11.jpg" alt="">
+                    <div class="content">
+                        <h3>skin Embroidered work choli and servani pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 15000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c12.jpg" alt="">
+                    <div class="content">
+                        <h3>Embroidered work choli and servani pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 10000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c13.jpg" alt="">
+                    <div class="content">
+                        <h3>Embroidered work purple choli and kurta suit pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 14000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c14.jpg" alt="">
+                    <div class="content">
+                        <h3>pink and brown choli and kurta pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 10000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c15.jpg" alt="">
+                    <div class="content">
+                        <h3>Grey choli and kurta pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 17000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="c16.jpg" alt="">
+                    <div class="content">
+                        <h3>White Embroidered work choli and kurta pair</h3>
+                        <p>size: s, M, L, XL, XXL, XXXL <br>Price: 14000/-</p>
+                        <a href="payment.html" class="btn">Select Now</a>
+                        <a href="addtocart.html">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- load more button -->
+            <div id="load-more">load more</div>
+    </section>
+
+    <!-- footer -->
+    <section id="last_footer">
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <h3>Fashion<span>Zone</span></h3>
+
+                <p class="footer-company-name">FashionZone © 2024</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 743***28***4</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:tanvigadhiya8@gmail.com">tanvigadhiya8@gmail.com</a></p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:krupaliraiyani64@gmail.com">krupaliraiyani64@gmail.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About the FashionZone</span>
+                    "Welcome to FashionZone, your go-to destination for renting stylish clothes for special occasions. 
+                    Browse our curated collection and choose from a wide range of trendy outfits to rent for a few days. 
+                    Experience hassle-free fashion with convenient delivery and return options, making it easier than ever to dress 
+                    your best for every event."
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+
+    
+    <!-- script section -->
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+/* @media screen and (max-width: 360px){
+    #home .quote{
+        top
+    }
+} */
+
+@media screen and (max-width: 806px) {
+
+    /* Navigation */
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+
+    /* Home section */
+    #home {
+        height: 370px;
+        padding: 3px 28px;
+    }
+
+    #home h1 {
+        /* position: absolute; */
+        top: 3cm;
+        font-size: 30px;
+        
+    }
+
+    #home .quote {
+        /* position: absolute; */
+        font-size: 13px;
+        
+    }
+
+
+    /* login signin box */
+
+    .wrapper {
+        top: 10px;
+        width: 7cm;
+        height: 9cm;
+        display: flex;
+        flex-grow: initial;
+        justify-content: center;
+        padding: 3.82cm;
+    }
+
+    .wrapper h2 {
+        top: 30px;
+        font-size: 1.8em;
+    }
+
+    .wrapper .input-box {
+        top: 12px;
+    }
+
+    .input-box {
+        margin: 0px 0;
+    }
+
+    .input-box label {
+        top: 68%;
+        left: 5px;
+        font-size: 0.7em;
+    }
+
+    .input-box .icon {
+        font-size: 0.8em;
+    }
+
+    .remember-forgot {
+        font-size: 0.8em;
+        padding: 7px;
+    }
+
+    /* three buttons */
+
+    .constraint {
+        justify-content: space-between;
+        width: 6.5cm;
+    }
+
+    .round-button-circle {
+        width: 70px;
+        height: 70px;
+        top: 1cm;
+    }
+
+    .round-button .round-button-circle img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .round-button span {
+        bottom: 43.5px;
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+
+    /*  women collection portion */
+
+    #women-collection {
+        top: 134px;
+    }
+
+    #women-collection .container .heading {
+        font-size: 35px;
+        justify-content: center;
+    }
+
+    #women-collection .container .box-container {
+        width: 80%;
+    }
+
+    #women-collection .font-image {
+        width: 9cm;
+    }
+
+    #women-collection .font-image .imgback {
+        height: 2.8cm;
+        left: 5.6cm;
+    }
+
+    #women-collection .font-image .rotate_imgback {
+        height: 2.8cm;
+        left: -6.7cm;
+    }
+
+    #women-collection .container .font-image p {
+        font-size: 34px;
+        right: 21px;
+    }
+
+    #women-collection .container .box-container .box {
+        width: 7cm;
+        right: 1.6cm;
+        height: 9cm;
+    }
+
+    #women-collection .container .box-container .box .content p {
+        padding-top: 30px;
+    }
+
+    #women-collection .container .box-container .box .content a {
+        margin-top: 0;
+    }
+
+    #women-collection #load-more {
+        width: 4cm;
+        height: 1cm;
+        font-size: 1.2em;
+    }
+
+    /*  men collection portion */
+
+    #men-collection {
+        top: 133px;
+    }
+
+    #men-collection .container .heading {
+        font-size: 35px;
+        justify-content: center;
+    }
+
+    #men-collection .container .box-container {
+        width: 80%;
+    }
+
+    #men-collection .font-image {
+        width: 9cm;
+    }
+
+    #men-collection .font-image .imgback {
+        height: 2.8cm;
+        left: 5.6cm;
+    }
+
+    #men-collection .font-image .rotate_imgback {
+        height: 2.8cm;
+        left: -6.7cm;
+    }
+
+    #men-collection .container .font-image p {
+        font-size: 39px;
+        right: 21px;
+    }
+
+    #men-collection .container .box-container .box {
+        width: 7cm;
+        right: 1.6cm;
+        height: 9cm;
+    }
+
+    #men-collection .container .box-container .box .content p {
+        padding-top: 30px;
+    }
+
+    #men-collection .container .box-container .box .content a {
+        margin-top: 0;
+    }
+
+    #men-collection #load-more {
+        width: 4cm;
+        height: 1cm;
+        font-size: 1.2em;
+    }
+
+
+    /*  couple collection portion */
+
+    #couple-collection {
+        top: 133px;
+    }
+
+    #couple-collection .container .heading {
+        font-size: 35px;
+        justify-content: center;
+    }
+
+    #couple-collection .container .box-container {
+        width: 80%;
+    }
+
+    #couple-collection .font-image {
+        width: 9cm;
+    }
+
+    #couple-collection .font-image .imgback {
+        height: 2.8cm;
+        left: 5.4cm;
+    }
+
+    #couple-collection .font-image .rotate_imgback {
+        height: 2.8cm;
+        left: -6.7cm;
+    }
+
+    #couple-collection .container .font-image p {
+        font-size: 30px;
+        right: 21px;
+    }
+
+    #couple-collection .container .box-container .box {
+        width: 7cm;
+        right: 1.6cm;
+        height: 9cm;
+    }
+
+    #couple-collection .container .box-container .box .content p {
+        padding-top: 30px;
+    }
+
+    #couple-collection .container .box-container .box .content a {
+        margin-top: 0;
+    }
+
+    #couple-collection #load-more {
+        width: 4cm;
+        height: 1cm;
+        font-size: 1.2em;
+    }
+
+}
+
+
+@media (max-width: 806px) {
+
+    .footer-distributed {
+        top: 0;
+        font: bold 14px sans-serif;
+        padding: 20px 50px 1px 50px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+    .footer-distributed .footer-left{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 609px){
+    .footer-distributed{
+        top: 3.5cm;
+    }
+   
+}

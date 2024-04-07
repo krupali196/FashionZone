@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        #cart-items {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #cart-items p {
+            color: #5a5a5a;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1px 50px;
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            font-size: 22px;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        #navbar li {
+            list-style: none;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        #navbar li a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #181717;
+            transition: 0.3s ease;
+        }
+
+        #navbar li a:hover,
+        #navbar li a.active {
+            color: #a33166;
+        }
+
+        #navbar li a.active::after,
+        #navbar li a.hover::after {
+            content: "";
+            width: 50%;
+            height: 2px;
+            background: #a33166;
+            position: absolute;
+            bottom: -4px;
+            left: 20px;
+        }
+        
+        .product-details{
+            position: relative;
+            margin-left: 40%;
+            margin-top: 1%;
+        }
+        .product-details h3{
+            margin-top: -8%;
+            margin-left: -35%;
+        }
+        .product-details img{
+            margin-left: -50%;
+        }
+        .product-details p{
+            margin-left: -35%;
+            margin-top: -1.5%;
+        }
+        .product-details a{
+            display: flex;
+            position: initial;
+            padding-top: 8px;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #8b547a;
+            cursor: pointer;
+            width: 3cm;
+            height: 35px;
+            height: 30px;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <h4 class="logo">FashionZone</h4>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+
+        </div>
+    </section>
+    <h1>Your Cart</h1>
+    <div class="product-details">
+        <img src="p1.jpg" width="100" height="100">
+        <h3>Multicolour Embroidered lehenga choli</h3>
+        <p>Price: 7000/-</p>
+        <a href="payment.html" class="btn">Select Now</a>
+    </div>
+    
+    <div class="product-details">
+        <img src="m1.jpg" width="100" height="100">
+        <h3>Mandrain collar kruta set</h3>
+        <p>Price: 3000/-</p>
+        <a href="payment.html" class="btn">Select Now</a>
+    </div>
+
+    <div class="product-details">
+        <img src="c1.jpg" width="100" height="100">
+        <h3>Pink lehenga and men kurta pair</h3>
+        <p>Price: 10000/-</p>
+        <a href="payment.html" class="btn">Select Now</a>
+    </div>
+
+</body>
+
+</html>
